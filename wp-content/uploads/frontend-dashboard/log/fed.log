@@ -1,0 +1,21 @@
+ 
+ 
+ ==================12/09/2022 08:46:31 (DEBUG) START================== 
+ 
+Array
+(
+    [menu_slug] => address
+    [menu] => Address
+    [menu_image_id] => fas fa-shipping-fast
+    [show_user_profile] => Enable
+    [menu_order] => 3
+    [user_role] => a:5:{i:0;s:13:"administrator";i:1;s:6:"editor";i:2;s:6:"author";i:3;s:11:"contributor";i:4;s:10:"subscriber";}
+    [extended] => 
+    [menu_key] => 
+    [menu_value] => 
+)
+ 
+ 
+ ==================12/09/2022 08:46:31 (DEBUG) END================== 
+ 
+ 
