@@ -1,0 +1,76 @@
+
+body{
+    font-family: "Times New Roman", Times, serif !important;
+}
+#the_head:hover {
+    text-decoration: none !important;
+    color: #215641 !important;
+}
+
+#the_head {
+    text-decoration: none !important;
+    color: #215641 !important;
+    font-family: "Times New Roman", Times, serif !important;
+    font-size: 19px !important
+}
+
+#the_description {
+    font-family: "Times New Roman", Times, serif !important;
+    font-size: 16px !important
+}
+
+#read_more:hover {
+    text-decoration: none !important;
+    color: #215641 !important;
+}
+
+#read_more {
+    text-decoration: none !important;
+    color: #215641 !important;
+    font-family: "Times New Roman", Times, serif !important;
+    font-size: 13px !important
+}
+
+.full_body {
+    display: flex;
+}
+
+#the_image {
+    width: 100%;
+    border-top-left-radius: 15px !important;
+    border-bottom-left-radius: 15px !important;
+    min-height: 21vh !important
+}
+
+#thefull_body {
+    border-radius: 15px !important;
+    box-shadow: rgba(60, 64, 67, 0.01) 5px 1px 2px 3px, rgba(60, 64, 67, 0.08) 2px 3px 5px 1px !important;
+}
+
+#randomposts {
+    border-radius: 15px;
+    box-shadow: rgba(60, 64, 67, 0.01) 5px 1px 2px 3px, rgba(60, 64, 67, 0.08) 2px 3px 5px 1px !important;
+}
+
+#popular_header {
+    font-family: "Times New Roman", Times, serif !important;
+    color: #215641 !important;
+}
+
+#the_title_li {
+    text-decoration: none;
+    font-size: 12px !important
+}
+
+@media screen and (min-width: 1024px) {
+    .full_body {
+        width: 46% !important;
+    }
+}
+
+/* For Tablet View */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .full_body {
+        width: 100% !important;
+    }
+}
