@@ -1,0 +1,235 @@
+ body {font-family: 'Jost', sans-serif !important;}
+
+ .mapouter {position: relative;text-align: right;margin-left: auto !important;margin-right: auto !important;width: 100%;overflow: hidden;}
+
+ .gmap_canvas {overflow: hidden;background: none !important;width: 290px;}
+
+ .gmap_iframe {width: 290px !important;height: auto !important;}
+
+ /* --------------------restaurant-food-menu-----------------*/
+ #food_menu_the_head,
+ #food_code_menu_the_head {text-decoration: none !important;font-family: 'Jost', sans-serif !important;font-size: 15px !important;color: orange !important;}
+
+ #food_menu_the_description,
+ #food_code_menu_the_description {font-family: 'Jost', sans-serif !important;font-size: 15px !important;text-align: justify !important;padding-right: 10px !important;}
+
+ #food_menu_the_image,
+ #food_code_menu_the_image {border-radius: 10px !important;height: 50px;width: 70px;}
+
+ .rounded-circle {width: 50%;height: 50%;}
+
+ .food_menu_inner_div {background-color: white;border-radius: 10px;}
+
+ .food_menu_main_data {width: 48% !important;box-shadow: rgba(60, 64, 67, 0.01) 5px 1px 2px 3px, rgba(60, 64, 67, 0.08) 2px 3px 5px 1px !important;border-radius: 10px;margin: 10px 5px;}
+
+ .food_menu_food_menu {box-shadow: rgba(60, 64, 67, 0.01) 5px 1px 2px 3px, rgba(60, 64, 67, 0.08) 2px 3px 5px 1px !important;width: 30% !important;margin-right: 30px !important;}
+
+ /* --------------------restaurant-food-codemenu-----------------*/
+
+ .food_code_menu_down_description {font-family: 'Jost', sans-serif !important;font-size: 15px !important;}
+
+ .food_code_menu_inner_div,
+ .food_search_inner_div {background-color: white;border-radius: 10px;margin-top: -50px;}
+
+ .food_code_menu_main_data {width: 48% !important;box-shadow: rgba(60, 64, 67, 0.01) 5px 1px 2px 3px, rgba(60, 64, 67, 0.08) 2px 3px 5px 1px !important;border-radius: 10px;margin: 10px 5px;}
+
+ .food_code_menu_food_menu,
+ .food_search_food_menu {box-shadow: rgba(60, 64, 67, 0.01) 5px 1px 2px 3px, rgba(60, 64, 67, 0.08) 2px 3px 5px 1px !important;width: 30% !important;margin-right: 30px !important;}
+
+ /* --------------------qrcode-----------------*/
+
+ .qrcode_qr_code {background-image: url('data:image/jpeg;base64,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');background-repeat: no-repeat;background-size: cover;border-radius: 10px;padding-top: 90px;}
+
+ .qrcode_the_qr_img {background-color: white;width: 25%;margin-left: auto;margin-right: auto;border-radius: 10px}
+
+ .qrcode_qr_code>h1 {font-size: 22px !important;}
+
+ .qrcode_food_menu {box-shadow: rgba(60, 64, 67, 0.01) 5px 1px 2px 3px, rgba(60, 64, 67, 0.08) 2px 3px 5px 1px !important;width: 30% !important;margin-right: 30px !important;}
+
+ /* --------------------food search-----------------*/
+ .food_search_search_image {width: 70px;height: 50px;border-radius: 10px;}
+
+ .food_search_down_description {font-family: 'Jost', sans-serif !important;font-size: 15px !important;width: 53%;float: left;}
+
+ .food_search_main_data {width: 100% !important;border-radius: 10px;margin: 10px 5px;}
+
+ .food_search_inner_description {box-shadow: rgba(60, 64, 67, 0.01) 5px 1px 2px 3px, rgba(60, 64, 67, 0.08) 2px 3px 5px 1px !important;width: 95%;clear: both;}
+
+ /* --------------------food custom search-----------------*/
+
+ .food_custom_search_input_search {border-radius: 5px !important;height: 5vh !important;padding: 5px 10px !important;width: 100% !important;margin-left: auto !important;}
+
+ #the_food_btn {border-top-right-radius: 5px;border-bottom-right-radius: 5px;background-color: #3EABAA;color: #ffffff;padding: 5px 5px;height: 5vh !important;font-size: 13px}
+
+ .food_custom_search {position: relative;box-shadow: 0 0 40px rgba(51, 51, 51, .1);margin-left: auto;width: 100%;}
+
+ .food_custom_search input:focus {box-shadow: none;border: 1px solid #3EABAA;}
+
+ .food_custom_search button {position: absolute;right: 1px;width: 80px;background: #3EABAA;}
+
+ /* ___________________________________Media Queries_________________________________ */
+ 
+@media screen and (max-width:319px) {
+
+    /* ####### restaurant-food-menu ####### */
+
+    .food_menu_food_menu, .food_code_menu_food_menu,.qrcode_food_menu,.food_search_food_menu {width: 100% !important;box-shadow: unset !important;}
+
+    .food_menu_main_data, .food_code_menu_main_data, .food_search_main_data {padding-left: 0px !important;width: 100% !important;box-shadow: unset !important;}
+
+    .food_menu_top_content, .food_code_menu_top_content {width: 100% !important;}
+
+    .food_menu_down_description1,.food_code_menu_down_description1,.food_search_down_description1 {width: 100% !important;}
+
+    .food_menu_down_description2,.food_code_menu_down_description2 {width: 100% !important;}
+
+    .mapouter {position: relative;text-align: right;width: 100%;overflow: hidden;}
+
+    .gmap_canvas {background: none !important;width: 100% !important;}
+
+    .gmap_iframe {width: 100% !important;height: auto !important;}
+
+  
+    /* ####### qrcode ####### */
+
+    .qrcode_qr_code>h1 {font-size: 12px !important;}
+
+    .qrcode_the_qr_inner_img {padding: 12px !important;}
+
+}
+
+/* Phone on LTB */
+@media screen and (min-width:320px) and (max-width: 480px) {
+
+    /* ####### restaurant-food-menu ####### */
+   
+    .food_menu_food_menu,.food_code_menu_food_menu,.qrcode_food_menu,.food_search_food_menu {width: 100% !important;box-shadow: unset !important;}
+
+    .food_menu_down_description,.food_code_menu_down_description {padding-left: 20px;}
+
+    .food_menu_main_data,.food_code_menu_main_data {padding-left: 0px !important;box-shadow: unset !important;width: 100% !important}
+
+    .food_menu_top_content,.food_code_menu_top_content {padding-left: 20px;}
+
+    .food_menu_down_description1,.food_code_menu_down_description1 {width: 50% !important;padding-left: 20px !important;}
+
+    .food_menu_down_description2,.food_code_menu_down_description2 {width: 50% !important;text-align: center;}
+
+    .mapouter {position: relative;text-align: right;width: 100%;overflow: hidden;}
+
+    .gmap_canvas {background: none !important;width: 100% !important;}
+
+    .gmap_iframe {width: 100% !important;height: auto !important;}
+
+    /* ####### qrcode ####### */
+
+    .qrcode_qr_code>h1 {font-size: 15px !important;}
+
+    .qrcode_the_qr_inner_img {padding: 15px !important;}
+
+    .qrcode_qr_code {padding: 20px;}
+
+    /* ####### food search ####### */
+
+    .food_search_down_description {font-family: 'Jost', sans-serif !important;font-size: 15px !important;width: 100%;}
+
+    .food_search_data1 {width: 30%;float: left;}
+
+    .food_search_data2 {text-align: end;}
+
+    .food_search_down_description1 {width: 40%;float: left;}                
+
+}
+
+/* Tablet(iPad Air 2) on LTB */
+@media screen and (min-width:481px) and (max-width:768px) {
+
+    /* ####### restaurant-food-menu ####### */
+  
+    .food_menu_main_data, .food_code_menu_main_data{width: 98% !important;margin-left: 25px;}
+
+    .food_menu_food_menu,.food_code_menu_food_menu,.food_search_food_menu {width: 30% !important;margin-right: 0px !important;box-shadow: unset !important;}
+
+    .food_menu_down_description,.food_code_menu_down_description {padding-left: 10px;}
+
+    .food_menu_top_content, .food_code_menu_top_content {padding-left: 10px;}
+
+    .food_menu_down_description1,.food_code_menu_down_description1 {width: 50% !important;padding-left: 20px;}
+
+    .food_menu_down_description2,.food_code_menu_down_description2 {width: 50% !important;text-align: center;}
+
+    .mapouter {position: relative;text-align: right;width: 100% !important;overflow: hidden;}
+
+    .gmap_canvas {background: none !important;width: 100% !important;}
+
+    .gmap_iframe {width: 100% !important;}
+
+         
+    /* ####### qrcode ####### */
+
+    .qrcode_food_menu {width: 100% !important;margin-right: 0px !important;box-shadow: unset !important;}
+
+    .qrcode_qr_code {width: 100% !important;padding: 20px;}
+
+    /* ####### food search ####### */
+                   
+    .food_custom_search input {box-shadow: none;height: 3vh !important;}
+
+    #the_food_btn {max-height: 3vh !important;}
+
+    .food_search_down_description {font-size: 15px !important;width: 100%;}
+
+    .food_search_data1 {width: 30%;float: left;}
+
+    .food_search_data2 {text-align: end;float: left;}
+
+    .food_search_down_description1 {width: 30%;float: left;}
+        
+}
+
+/* Tablet on LTB */
+@media screen and (min-width:769px) and (max-width:1024px) {
+
+    /* ####### restaurant-food-menu ####### */
+       
+    .food_menu_food_menu,.food_code_menu_food_menu {box-shadow: rgba(60, 64, 67, 0.01) 5px 1px 2px 3px, rgba(60, 64, 67, 0.08) 2px 3px 5px 1px !important;width: 30% !important;margin-right: 10px !important;}
+
+    .food_menu_main_data,.food_code_menu_main_data {width: 48% !important;box-shadow: rgba(60, 64, 67, 0.01) 5px 1px 2px 3px, rgba(60, 64, 67, 0.08) 2px 3px 5px 1px !important;border-radius: 10px;margin: 10px 4px;}
+
+    .food_menu_down_description,.food_code_menu_down_description {padding-left: 10px;width: 100% !important}
+
+    .food_menu_top_content,.food_code_menu_top_content {padding-left: 10px;}
+
+    .food_menu_down_description1,.food_code_menu_down_description1 {width: 50% !important;padding-left: 20px;}
+
+    .food_menu_down_description2,.food_code_menu_down_description2 {width: 50% !important;text-align: center;}
+
+    .mapouter {position: relative;text-align: right;width: 100% !important;overflow: hidden;}
+
+    .gmap_canvas {background: none !important;width: 100% !important;}
+
+    .gmap_iframe {width: 100% !important;}
+
+    /* ####### qrcode ####### */
+
+    .qrcode_food_menu {width: 100% !important;margin-right: 0px !important;box-shadow: unset !important;}
+
+    .qrcode_qr_code {width: 100% !important;padding: 20px;}
+    
+    /* ####### food search ####### */
+    .food_custom_search input {box-shadow: none;height: 2vh !important;}
+
+    #the_food_btn {max-height: 2vh !important;}
+
+    .food_search_food_menu {box-shadow: rgba(60, 64, 67, 0.01) 5px 1px 2px 3px, rgba(60, 64, 67, 0.08) 2px 3px 5px 1px !important;width: 30% !important;margin-right: 10px !important;}
+
+    .food_search_down_description {font-family: 'Jost', sans-serif !important;font-size: 15px !important;width: 100%;}
+
+    .food_search_data1 {width: 30%;float: left;}
+
+    .food_search_data2 {text-align: end;float: left;}
+
+    .food_search_down_description1 {width: 30%;float: left;}
+
+}
+

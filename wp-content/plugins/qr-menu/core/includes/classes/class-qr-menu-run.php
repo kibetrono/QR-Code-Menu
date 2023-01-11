@@ -47,10 +47,9 @@ class Qr_Menu_Run{
 		add_action( 'init', array( $this, 'add_custom_post_type' ), 20 );
 		add_action( 'acf/init', array( $this, 'add_custom_acf_options_page' ), 20 );
 		add_action('init', array($this, 'food_type_taxonomy'), 20);
-
 		register_activation_hook( QRMENU_PLUGIN_FILE, array( $this, 'activation_hook_callback' ) );
-
 		add_shortcode('restaurant_menu_shortcode', array($this,'the_restaurant_menu_shortcode'));
+		add_shortcode('restaurant_codemenu_shortcode', array($this, 'the_restaurant_codemenu_shortcode'));
 		add_shortcode('qrcode_shortcode', array($this, 'qrcode_shortcode'));
 	
 	}
@@ -204,7 +203,15 @@ class Qr_Menu_Run{
 
 	public function the_restaurant_menu_shortcode(){
 		include_once('./wp-content/themes/basel-child/restaurant-food-menu.php');
+		// include_once get_stylesheet_directory_uri(__FILE__) . '/restaurant-food-menu.php';
+
 	}
+
+	public function the_restaurant_codemenu_shortcode()
+	{
+		include_once('./wp-content/themes/basel-child/restaurant-food-codemenu.php');
+	}
+	
 
 	public function qrcode_shortcode(){
 		include_once('./wp-content/themes/basel-child/qrcode.php');

@@ -1,8 +1,8 @@
 <?php
-if (!is_user_logged_in()) {
-	wp_redirect('http://localhost/Softwareske/WP/QrMenu/wp-login.php');
-	exit;
-}
+// if (!is_user_logged_in()) {
+// 	wp_redirect('http://localhost/Softwareske/WP/QrMenu/wp-login.php');
+// 	exit;
+// }
 /**
  * The Header template for our theme
  */
